@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    font-size: 25px;
+}
+
+.auth, .room, .chat-app{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border: 1px dotted blue;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+.room{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign-out{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.chat-app{
+    min-height: 300px;
+}
+.chat-header{
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid blue;
+}
+.chat-messages{
+    min-height: 200px;
+    margin-bottom: 100px;
+}
+
+.chat-message{
+    background-color: rgba(170, 231, 231, 0.856); 
+    border-radius: 15px;
+    text-align: start;
+    box-sizing: content-box;
+    max-width: 40%;
+    word-wrap: break-word;
+
+   
+}
+.chat-user{
+    font-size: 20px;
+    border-bottom: 1px dotted blue;
+    color: blue;
+}
+
+.chat-message-text{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.chat-newMessage-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-sendButton{
+    margin-left: 20px;
+}
